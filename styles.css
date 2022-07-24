@@ -10,6 +10,10 @@
   --text-thin: rgb(147, 147, 147);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background--bg);
   font-family: "Sora", sans-serif;
@@ -56,5 +60,6 @@ h1 {
 
   .hero p {
     font-size: 1.5rem;
+    max-width: fit-content;
   }
 } ;
